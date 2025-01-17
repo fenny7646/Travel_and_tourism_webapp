@@ -5,7 +5,6 @@ COUNTER_FILE=".commit_counter"
 
 # Define an array of remote repositories and their values
 declare -A remote_values=( ["origin"]="" ["traveller"]=1 )
-remote_repos=("origin" "moviesite")
 
 # Define an array of remote repositories and their values
 declare -A file_values=(  ["Main"]=0 ["Templates"]=1 ["Static"]=2 ["Media"]=3)
